@@ -12,3 +12,36 @@
 // }
 
 // console.log(obj.a)
+
+// function printHelloWorld() {
+//     console.log("hello world")
+// }
+
+// printHelloWorld(); 
+
+// function greed(name) {
+//     console.log("Namaste " + name)
+// }
+
+// greed("Ashish");
+// greed("Deepika");
+
+
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+
+// let x = 20;
+// let y = 40;
+
+// sum(x, y);
+
+
+function square(X) {
+    let result = X * X;
+    return result;
+}
+
+let finalresult = square(2);
+
+console.log(finalresult)
