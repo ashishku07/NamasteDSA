@@ -1,0 +1,167 @@
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[2])
+
+// let arr = [1, 2, 3, 4, 5,[1,2,3]];
+// console.log(arr[5][2])
+
+
+
+// let obj = {
+//     a: 1,
+//     name: "Ashish"
+// }
+
+// console.log(obj.a)
+
+// function printHelloWorld() {
+//     console.log("hello world")
+// }
+
+// printHelloWorld(); 
+
+// function greed(name) {
+//     console.log("Namaste " + name)
+// }
+
+// greed("Ashish");
+// greed("Deepika");
+
+
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+
+// let x = 20;
+// let y = 40;
+
+// sum(x, y);
+
+
+// function square(X) {
+//     let result = X * X;
+//     return result;
+// }
+
+// // let finalresult = square(2);
+
+// let finalresult = square(200);
+
+
+// console.log(finalresult)
+
+//eligible for vote or not
+
+
+// function eligiblevote(age) {
+//     if (age < 18) {
+//         console.log("eligible not for vote");
+//     }
+//     else {
+//         console.log(" eligible")
+//     }
+
+// }
+
+// eligiblevote(20);
+
+
+// let arr = [4, 2, 0, 8, 10];
+
+// function findIndex(arr, element) {
+
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (element == arr[i]) {
+//             return i;
+//           }
+//     }
+//     return -1;
+// }
+
+// console.log(findIndex(30));
+
+
+// Negetive Number counter Search in array
+
+
+
+// function findNegative(arr) {
+//     let counter = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] < 0) {
+//             counter = counter + 1;
+//         }
+//     }
+//     return counter;
+// }
+
+// let arr = [1, 2, -3, 4, -10, 5,-5,-6];
+// console.log(findNegative(arr));
+
+
+// function largetNumber(arr) {
+//     let i  = 0 
+//     let largetNumber = arr[i];
+//     for ( i = 0; i < arr.length; i++) {
+//         if (arr[i] > largetNumber) {
+//             largetNumber = arr[i]
+//         } 
+//     }
+//     return largetNumber;
+
+// }
+
+// let arr = [-3, -100, -5, -6,0];
+// console.log(largetNumber(arr));
+
+
+// function smallest(arr) {
+//     let i = 0
+//     let largetNumber = arr[i];
+//     for (i = 0; i < arr.length; i++) {
+//         if (arr[i] < largetNumber) {
+//             largetNumber = arr[i]
+//         }
+//     }
+//     return largetNumber;
+
+// }
+
+// let arr = [-3, -1000, -5, -6, 0];
+// console.log(smallest(arr));
+
+
+// find Second Largest in a array\
+
+
+// function secondLargest(arr) {
+//     let largest = -Infinity;
+//     let secondLargest = -Infinity
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > largest) {
+//             secondLargest = largest;
+//             largest = arr[i]
+//         }
+//         else if (arr[i] > secondLargest) 
+//         secondLargest = arr[i];
+
+//     }
+//     return secondLargest;
+// }
+
+// let arr = [10,20,30,40,40,50];
+// console.log(secondLargest(arr))
+
+
+
+
+// double loop
+
+
+
+// for (let i = 5; i > 0; i--) {
+//     for (let j = 0; j < i; j++) {
+//         console.log(i,j) 
+//     }
+// }
+
